@@ -1,0 +1,29 @@
+
+body {
+	background: #0287b3;
+}
+
+#onstage {
+ text-align: center;
+ padding: 20px;
+ }
+
+
+#container1, #container2, #container3, #container4 {
+	float: left;
+	margin-left: 100px;
+	text-align: center;
+	margin-bottom: 80px;
+	}
+	
+	
+ 
+ h1 {
+ text-align: center;
+ padding: 20px;
+ }
+ 
+ @media (max-width: 700px) {
+ 	#onstage { display: none; }
+	}
+	

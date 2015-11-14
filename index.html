@@ -2,23 +2,93 @@
 <html>
 
 <head>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Kendrick Lamar </title>
+	<link rel="stylesheet" href="css/kendrick.css">
 </head>
+
 
 <body>
 	<h1>Kendrick Lamar</h1>
-	<img src="images/kendrickstage.jpg" alt="Photo: Kendrick Performing on Stage">
-	<p>Photo by <a 			href="https://www.flickr.com/photos/u2soul/10550563686/in/photolist-h5jp1s-bXdkyi-bXdkPn-bXdkHi-cezH2f-bXdkvD-oMGqjn-h5jZzC-jJJZaz-bCA4Dq-bmgzDb-bmgBsL-bmgCH3-bmgBNh-bzbsMv-bmgC5Y-bzbuMn-bzbvkp-b3mPKa-bzburr-bzbwFt-bmgEkQ-bzbsNR-bmgCoN-bmgEk1-bzbvFT-bmgCX9-bmgBoh-bzbtfV-bzbwkt-bmgEhy-bzbw26-bzbvmz-bmgza5-bzbvGF-bzbvna-bzbuKH-bmgBiu-ft6GoK-ft6GfB-ft6ExK-ftm2ZQ-ftm2g5-ftm2GU-ft6Fon-ftm1om-ALsoBR-sMZvU8-pexxHt-ft6ELa">U2soul on Flickr.com.</a></p>
-	<p>To those who don't listen to rap and don't know who Kendrick Lamar is, he's one of the most renown rappers on the hip-hop scene currently. I first saw Lamar in concert about four years ago, just after he released his first album and before he catapulted to stardom. I've enjoyed his music ever since and I hope you do too.</p>
-	<img src="images/kendrick1.jpg" alt="Album cover: Section.80">
-	<img src="images/kendrick2.jpg" alt="Album cover: good kid, m.A.A.d city">
-	<img src="images/kendrick4.jpg" alt="Album cover: good kid, m.A.A.d city">
-	<img src="images/kendrick3.jpg" alt="Album cover: To Pimp a Butterfly">
+	<div id="onstage">
+		<img src="images/kendrickstage.jpg" alt="Photo: Kendrick Performing on Stage" id="kendrickstage">
+		<p>Photo by <a 			href="https://www.flickr.com/photos/u2soul/10550563686/in/photolist-h5jp1s-bXdkyi-bXdkPn-bXdkHi-cezH2f-bXdkvD-oMGqjn-h5jZzC-jJJZaz-bCA4Dq-bmgzDb-bmgBsL-bmgCH3-bmgBNh-bzbsMv-bmgC5Y-bzbuMn-bzbvkp-b3mPKa-bzburr-bzbwFt-bmgEkQ-bzbsNR-bmgCoN-bmgEk1-bzbvFT-bmgCX9-bmgBoh-bzbtfV-bzbwkt-bmgEhy-bzbw26-bzbvmz-bmgza5-bzbvGF-bzbvna-bzbuKH-bmgBiu-ft6GoK-ft6GfB-ft6ExK-ftm2ZQ-ftm2g5-ftm2GU-ft6Fon-ftm1om-ALsoBR-sMZvU8-pexxHt-ft6ELa">U2soul on Flickr.com.</a></p>
+		<p id="para">To those who don't listen to rap and don't know who Kendrick Lamar is, he's one of the most renown rappers on the hip-hop scene currently. I first saw Lamar in concert about four years ago, just after he released his first album and before he catapulted to stardom. I've enjoyed his music ever since, and I hope you do too. Click his album covers below to sample a song from that album. <b>Note:</b> you can also click the photo above to make this paragraph disappear.</p>
+		</div>
 	
-<audio id="soundtrack" controls preload="auto"> 
-	<source src="audio/kendrickvibe.mp3" type="audio/mp3"> 
-	<source src="audio/kendrickvibe.ogg" type="audio/ogg"> 
-</audio>
+<!-- first cover and song -->
+
+<div id="container1">
+	<div id="section80cover" class="cover">
+	<img src="images/kendrick1.jpg" alt="Album cover: Section.80">
+	</div>
+	
+	<div id="kendrickadhd" class="songs">
+	<audio id="soundtrack1" controls preload="auto">
+		<source src="audio/kendrickadhd.mp3" type="audio/mp3">
+		<source src="audio/kendrickadhd.ogg" type="audio/ogg">
+	</audio>
+	<p>A.D.H.D -- Kendrick Lamar</p>
+	</div>
+</div>
+
+
+<!--second cover and song-->
+
+<div id="container2">
+	<div id="maadcitycover" class="cover">
+	<img src="images/kendrick2.jpg" alt="Album cover: good kid, m.A.A.d city">
+	</div>
+
+	<div id="kendrickmaadcity" class="songs">
+	<audio id="soundtrack2" controls preload="auto">
+		<source src="audio/kendrickmaadcity.mp3" type="audio/mp3">
+		<source src="audio/kendrickmaadcity.ogg" type="audio/ogg">
+	</audio>
+	<p>m.A.A.d city -- Kendrick Lamar (feat. MC Eiht)</p>
+	</div>
+</div>
+
+
+<!--third cover (same as second) and song-->
+
+<div id="container3">
+	<div id="maadcitycover2" class="cover">
+	<img src="images/kendrick4.jpg" alt="Album cover: good kid, m.A.A.d city">
+	</div>
+
+	<div id="kendrickvibe" class="songs">
+	<audio id="soundtrack3" controls preload="auto">
+		<source src="audio/kendrickvibe.mp3" type="audio/mp3">
+		<source src="audio/kendrickvibe.ogg" type="audio/ogg">
+	</audio>
+	<p>Trick, Don't Kill My Vibe -- Kendrick Lamar</p>
+	</div>
+</div>
+
+
+<!--fourth cover and song-->
+
+<div id="container4">
+	<div id="butterflycover" class="cover">
+	<img src="images/kendrick3.jpg" alt="Album cover: To Pimp a Butterfly">
+	</div>
+	
+	<div id="kendricki" class="songs">
+	<audio id="soundtrack4" controls preload="auto">
+		<source src="audio/kendricki.mp3" type="audio/mp3">
+		<source src="audio/kendricki.ogg" type="audio/ogg">
+	</audio>
+	<p>I (Love Myself) -- Kendrick Lamar</p>
+	</div>
+</div>
+
+
+<!--scripts-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/kendrick.js"></script>
 
 </body>
 
